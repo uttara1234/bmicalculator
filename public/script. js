@@ -4,5 +4,5 @@ function CalculateClick(){
     const height=parseFloat(document.getElementById("heightAmount").value/100);
     const BMI=(weight/Math.pow(height,2)).toFixed(2);
 
-    document.getElementById("BMIResult").innerHTML="your BMI is"+BMI;
+    document.getElementById("BMIResult").innerHTML="your BMI is"+ BMI;
 }
